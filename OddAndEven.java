@@ -16,7 +16,7 @@ public class OddAndEven {
 		System.out.println(); 
 							
 		System.out.println("Even numbers from " + start + " to " + end + ":");
-		int[] evenNumbers = new int[100];//unlime values[(end - start) / 2 + 1]; 
+		int[] evenNumbers = new int[100];
 		int evenIndex = 0; 
 		for (int i = start; i <= end; i++) {
 			if (i % 2 == 0) {
@@ -26,7 +26,7 @@ public class OddAndEven {
 		}
 		System.out.println(); 
 		System.out.println("Odd numbers from " + start + " to " + end + ":");
-		int[] oddNumbers = new int[((end - start) ) / 2+1]; 
+		int[] oddNumbers = new int[100] 
 		int oddIndex = 0; 
 		for (int i = start; i <= end; i++) {
 			if (i % 2 != 0) {
