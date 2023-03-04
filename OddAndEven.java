@@ -16,34 +16,34 @@ public class OddAndEven {
 		System.out.println(); 
 							
 		System.out.println("Even numbers from " + start + " to " + end + ":");
-		int[] evenNumbers = new int[100];
+		int[] evenarray = new int[100];
 		int evenIndex = 0; 
 		for (int i = start; i <= end; i++) {
 			if (i % 2 == 0) {
 				System.out.print(i + " ");
-				evenNumbers[evenIndex++] = i; 
+				evenarray[evenIndex++] = i; 
 			}
 		}
 		System.out.println(); 
 		System.out.println("Odd numbers from " + start + " to " + end + ":");
-		int[] oddNumbers = new int[100];
+		int[] oddarray = new int[100];
 		int oddIndex = 0; 
 		for (int i = start; i <= end; i++) {
 			if (i % 2 != 0) {
 				System.out.print(i + " ");
-				oddNumbers[oddIndex++] = i; 
+				oddarray[oddIndex++] = i; 
 			}
 		}
 		System.out.println(); 
 		System.out.print("Even number array: ");
 		for (int i = 0; i < evenIndex; i++) {
-			System.out.print(evenNumbers[i] + " ");
+			System.out.print(evenarray[i] + " ");
 			
 		}
 		System.out.println();
 		System.out.print("Odd number array: ");
 		for (int i = 0; i < oddIndex; i++) {
-			System.out.print(oddNumbers[i] + " ");
+			System.out.print(oddarray[i] + " ");
 		}
 		System.out.println();
 	}
