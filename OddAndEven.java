@@ -26,7 +26,7 @@ public class OddAndEven {
 		}
 		System.out.println(); 
 		System.out.println("Odd numbers from " + start + " to " + end + ":");
-		int[] oddNumbers = new int[100] 
+		int[] oddNumbers = new int[100];
 		int oddIndex = 0; 
 		for (int i = start; i <= end; i++) {
 			if (i % 2 != 0) {
